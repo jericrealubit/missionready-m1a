@@ -1,31 +1,19 @@
-# api-users
+# car-insurance-api
 
-## REST API with express / mongodb / netlify / serverless 
+## REST API with express / mongodb / netlify / serverless
 
 # GET
-https://api-users-jeric.netlify.app/.netlify/functions/api
 
-# POST
-https://api-users-jeric.netlify.app/.netlify/functions/api
-PAYLOAD:
-{    
-    "username": "johndoe",
-    "email": "johndoe@gmail.com",
-    "password": "abc123"
-}
+## carvalue
 
-# GET:id
-https://api-users-jeric.netlify.app/.netlify/functions/api/63102dea2f72af4e9629e40a
+https://car-insurance-api.azurewebsites.net/api/v1/carvalue?model=civic&year=2014
 
-# PUT:id
-https://api-users-jeric.netlify.app/.netlify/functions/api/63102dea2f72af4e9629e40a
-PAYLOAD:
-{    
-    "username": "newjohndoe",
-    "email": "newjohndoe@gmail.com",
-    "password": "newabc123"
-}
+## riskrating
 
-# DELETE:id
-https://api-users-jeric.netlify.app/.netlify/functions/api/63102dea2f72af4e9629e40a
+https://car-insurance-api.azurewebsites.net/api/v1/riskrating?claim_history=My%20only%20claim%20was%20a%20crash%20into%20my%20house%27s%20garage%20door%20that%20left%20a%20scratch%20on%20my%20car.%20%20There%20are%20no%20other%20crashes
+
+## quote
+
+https://car-insurance-api.azurewebsites.net/api/v1/quote?car_value=6614&risk_rating=5
+
 # missionready-m1a
