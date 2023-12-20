@@ -5,6 +5,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "http://localhost/api/v1",
+    baseUrl: "https://car-insurance-api.azurewebsites.net/api/v1", // "http://localhost/api/v1",
   },
 });
