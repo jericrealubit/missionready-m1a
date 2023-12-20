@@ -1,14 +1,12 @@
-const express = require("express");
-const cors = require("cors");
-const serverless = require("serverless-http");
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
 
 const app = express();
+const PORT = 5000;
 const router = express.Router();
 
 app.use(cors());
-
-// needed for adding a document
-const bodyParser = require("body-parser");
 app.use(
   bodyParser.urlencoded({
     extended: true,
@@ -16,9 +14,12 @@ app.use(
 );
 app.use(bodyParser.json());
 
+app.listen(PORT, () =>
+  console.log(`Server running on port: http://localhost:${PORT}`)
+);
+
 router.get("/", (req, res) => {
-  res.send({ UserList });
+  res.send("xxx");
 });
 
-app.use("/.netlify/functions/api", router);
-module.exports.handler = serverless(app);
+app.use("/", router);
