@@ -55,6 +55,10 @@ Yearly premium is calculated by car_value multiplied by driver rating divided by
 
 [![Testing Screen Shot][testing-screenshot]](https://github.com/jericrealubit/missionready-m1a/actions/runs/7294312989/job/19878931874)
 
+# Presentation
+
+https://www.loom.com/share/5bbdbc85fd004197bcddf86306074f7d
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
