@@ -63,8 +63,8 @@ https://www.loom.com/share/5bbdbc85fd004197bcddf86306074f7d
 
 ### Built With
 
-- [!Express.js[Express.js]][Express.js URL]
-- [!Cypress.io[Cypress.io]][Cypress.io URL]
+- [![Express.js][Express.js]][Express.js URL]
+- [![Cypress.io][Cypress.io]][Cypress.io URL]
 
 [product-screenshot]: public/images/screenshot.png
 [Express.js]: https://img.shields.io/badge/Express-.js-blue
