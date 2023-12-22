@@ -43,7 +43,7 @@ API 3. Convert "Car Value" and "Risk Rating" to a "Quote"
 This API takes 2 parameters as input in JSON format that includes - the "car value" (e.g. $6,614) and "risk rating" of the driver between 1 to 5 (e.g. 5 meaning high risk). And the output is a JSON format with the suggested monthly and yearly premium for the insurance policy, such as "$50", "$614,". Here are the example specifications and business rules of conversion:
 
 INPUT OUTPUT ERROR OUTPUT
-{ car_value: 6614; risk_rating: 5} { monthly_premium: 27.5; yearly_premium: 330} { error: "there is an error"}
+{ car_value: 6614; risk_rating: 5} { monthly_premium: 27.6; yearly_premium: 330.7} { error: "there is an error"}
 
 BUSINESS RULES
 
@@ -54,8 +54,6 @@ Yearly premium is calculated by car_value multiplied by driver rating divided by
 ## TESTING
 
 [![Testing Screen Shot][testing-screenshot]](https://github.com/jericrealubit/missionready-m1a/actions/runs/7294312989/job/19878931874)
-
-#### Presentation: https://www.loom.com/share/eaf52ed38a104ce39b38026f8d460f7d?sid=96e3f5f9-80a3-47ba-96d5-8c85061e0f72
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
